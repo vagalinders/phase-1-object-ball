@@ -124,3 +124,10 @@ const gameObject = function(){
       
       console.log(homeTeamName())
       // logs "Brooklyn Nets"
+      
+      function numPointsScored(playerName){
+        for (let key in teamName){
+            return gameObject[players, points]
+        } 
+      }
+console.log(numPointsScored("Reggie Evans"))
