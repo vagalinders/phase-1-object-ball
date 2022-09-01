@@ -1,5 +1,5 @@
-const gameObject = {
-    
+const gameObject = function(){
+    let newGameObj = {
         home: {
           teamName: "Brooklyn Nets",
           colors: ["Black", "White"],
@@ -112,6 +112,8 @@ const gameObject = {
             },
           },
         },
+    }
+    return newGameObj;
       };
 
 
